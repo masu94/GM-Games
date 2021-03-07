@@ -1,0 +1,628 @@
+﻿{"startingSeason":1918,
+"version":43,"meta":{"phaseText":"1918 regular season","name":"NHL"},
+"teams":[
+{"tid":0,"cid":0,"did":0,
+"region":"Toronto","name":"Arenas","abbrev":"TOA","pop":9.2,"strategy":"rebuilding",
+"stadiumCapacity":18000,
+"colors":["#e03a3e","#C1D32F","#26282A"],
+"imgURL":"https://upload.wikimedia.org/wikipedia/commons/7/77/Toronto_Arenas_Logo.svg"},
+{"tid":1,"cid":0,"did":0,
+"region":"Montreal","name":"Wandererers","abbrev":"MOW","pop":4,"strategy":"rebuilding",
+"stadiumCapacity":18000,
+"colors":["#e03a3e","#C1D32F","#26282A"],
+"imgURL":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Montreal_Wanderers_logo.svg/1200px-Montreal_Wanderers_logo.svg.png"},
+{"tid":2,"cid":0,"did":0,
+"region":"Montreal","name":"Canadiens","abbrev":"MTL","pop":4,"strategy":"rebuilding",
+"stadiumCapacity":18000,
+"colors":["#e03a3e","#C1D32F","#26282A"],
+"imgURL":"https://dynamic.detroithockey.net/43/43bfbf599633627eba902b9dd82bd7.png"},
+{"tid":3,"cid":0,"did":0,
+"region":"Ottawa","name":"Senators","abbrev":"OTT","pop":1.3,"strategy":"rebuilding",
+"stadiumCapacity":18000,
+"colors":["#e03a3e","#C1D32F","#26282A"],
+"imgURL":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Original_ottawa_sens_logo.svg/1200px-Original_ottawa_sens_logo.svg.png"}],
+
+"gameAttributes":{"confs":[{"cid":0,"name":"NHL"}],"divs":[{"did":0,"cid":0,"name":"NHL"}],"numTeams":4,"aiJerseyRetirement":true,"aiTradesFactor":1,"allStarGame":null,"autoDeleteOldBoxScores":true,"blockFactor":1,
+"numPlayoffRounds":1,
+"numGamesPlayoffSeries":[5],
+"brotherRate":0.02,"budget":true,"challengeFiredLuxuryTax":false,"challengeFiredMissPlayoffs":false,"challengeLoseBestPlayer":false,"challengeNoDraftPicks":false,"challengeNoFreeAgents":false,"challengeNoRatings":false,
+"challengeNoTrades":false,"challengeThanosMode":false,"daysLeft":0,"defaultStadiumCapacity":17500,"difficulty":0,"draftType":"nhl2017",
+"easyDifficultyInPast":false,"elam":false,"elamASG":true,"elamMinutes":4,"elamPoints":8,"equalizeRegions":false,"expansionDraft":{"phase":"setup"},"foulRateFactor":1,"foulsNeededToFoulOut":6,"foulsUntilBonus":[5,4,2],
+"gameOver":false,"godMode":false,"godModeInPast":false,"gracePeriodEnd":1920,"hardCap":true,"homeCourtAdvantage":1,"injuryRate":0.0001,"luxuryPayroll":100000,"luxuryTax":1.5,"maxContract":13000,"maxContractLength":5,
+"maxRosterSize":25,"minContract":500,"minContractLength":1,"minPayroll":60000,"minRosterSize":12,"numDraftRounds":4,"numGames":22,
+"numPeriods":3,"numPlayersOnCourt":6,"numPlayoffByes":0,"numSeasonsFutureDraftPicks":4,"numTeams":4,"orbFactor":1,"otherTeamsWantToHire":false,"otl":[{"start":null,"value":true}],
+"pace":100,"phase":0,"playerMoodTraits":true,"playersRefuseToNegotiate":true,"pointsFormula":[{"start":null,"value":"2*W+OTL+T"}],"quarterLength":20,"realPlayerDeterminism":0,"rookieContractLengths":[3,2],"rookiesCanRefuse":true,
+"salaryCap":80000,"season":1918,"sonRate":0.02,"spectator":false,"startingSeason":1918,"stealFactor":1,"stopOnInjury":false,"stopOnInjuryGames":20,"threePointAccuracyFactor":1,"threePointTendencyFactor":1,"threePointers":true,
+"tiebreakers":[{"start":null,"value":["headToHeadRecord","divWinner","divRecordIfSame","confRecordIfSame","marginOfVictory","coinFlip"]}],
+"ties":[{"start":null,"value":false}],"tradeDeadline":0.6,"tragicDeathRate":0.0002,"turnoverFactor":1,"twoPointAccuracyFactor":1},
+"scheduledEvents":[
+ {"type": "contraction","season": 1918,"phase": 4,"info": {"tid": 1}, "id":0},
+ {"type": "gameAttributes","season": 1919,"phase": 0,"info": {"numGames": 18}, "id":1},
+ {"type": "expansionDraft","season": 1919,"phase": 4,"info": {"teams": [
+          {
+            "region": "Quebec",
+            "name": "Athletics",
+            "pop": 0.8,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "QUE",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/QuebecBulldogs.png",
+            "cid": 0,
+            "did": 0}]}, "id":2},
+ {"type": "teamInfo","season": 1920,"phase": 0,"info": {"tid":0,"name":"St. Patricks","abbrev":"TSP","imgURL":"https://upload.wikimedia.org/wikipedia/en/6/68/Toronto_St._Patricks_logo.svg"},"id":3},
+ {"type": "gameAttributes","season": 1920,"phase": 0,"info": {"numGames": 24}, "id":4},
+ {"type": "teamInfo","season": 1921,"phase": 0,"info": {"tid":4,"region":"Hamilton","name":"Tigers","abbrev":"HAM","imgURL":"https://upload.wikimedia.org/wikipedia/commons/1/15/Hamilton_Tigers_Logo.svg"},"id":5},
+ {"type": "expansionDraft","season": 1924,"phase": 4,"info": {"teams": [
+          {
+            "region": "Montreal",
+            "name": "Maroons",
+            "pop": 4,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "MOM",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Montreal_Maroons_Logo.svg",
+            "cid": 0,
+            "did": 0},
+			{
+            "region": "Boston",
+            "name": "Bruins",
+            "pop": 4.6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "BOS",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/1/12/Boston_Bruins.svg",
+            "cid": 0,
+            "did": 0}]}, "id":6},
+{"type": "gameAttributes","season": 1925,"phase": 0,"info": {"numGames": 30}, "id":7},
+{"type": "expansionDraft","season": 1925,"phase": 4,"info": {"teams": [
+          {
+            "region": "Pittsburgh",
+            "name": "Pirates",
+            "pop": 2.4,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "PIT",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/commons/8/85/Pittsburgh_Pirates_Logo.svg",
+            "cid": 0,
+            "did": 0}]}, "id":8},
+{"type": "teamInfo","season": 1926,"phase": 0,"info": {"tid":4,"region":"New York","name":"Americans","abbrev":"NYA","pop": 20,"imgURL":"https://upload.wikimedia.org/wikipedia/en/d/da/New_York_Americans_Logo.svg"},"id":9},
+{"type": "gameAttributes","season": 1926,"phase": 0,"info": {"numGames": 36}, "id":10},
+{"type": "gameAttributes","season": 1926,"phase": 4,"info":{"confs":[{"cid":0,"name":"Canadian"},{"cid":1,"name":"American"}],"divs":[{"did":0,"cid":0,"name":"Canadian"},{"did":1,"cid":1,"name":"American"}]}, "id":11},
+{"type": "expansionDraft","season": 1926,"phase": 4,"info": {"teams": [
+          {
+            "region": "New York",
+            "name": "Rangers",
+            "pop": 20,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "NYR",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/commons/a/ae/New_York_Rangers.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Detroit",
+            "name": "Cougars",
+            "pop": 4.3,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "DET",
+            "imgURL": "https://content.sportslogos.net/logos/1/994/full/238.png",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Chicago",
+            "name": "Blackhawks",
+            "pop": 9.5,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "CHI",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/29/Chicago_Blackhawks_logo.svg",
+            "cid": 1,
+            "did": 1}]}, "id":12},
+{"type": "teamInfo","season": 1927,"phase": 0,"info":{"tid":6,"cid": 1,"did": 1}, "id":13},
+{"type": "teamInfo","season": 1927,"phase": 0,"info":{"tid":7,"cid": 1,"did": 1}, "id":14},
+{"type": "gameAttributes","season": 1927,"phase": 0,"info": {"numGames": 44,"numPlayoffRounds":3,"numGamesPlayoffSeries":[3,3,5],"numPlayoffByes":2}, "id":15},
+{"type": "teamInfo","season": 1928,"phase": 0,"info": {"tid":0,"name":"Maple Leafs","abbrev":"TOR","imgURL":"https://upload.wikimedia.org/wikipedia/en/b/b6/Toronto_Maple_Leafs_2016_logo.svg"},"id":16},
+{"type": "teamInfo","season": 1931,"phase": 0,"info": {"tid":9,"name":"Falcons","imgURL":"https://www.hockeydb.com/ihdb/logos/nhl--detroit_falcons_1932.gif"},"id":17},
+{"type": "teamInfo","season": 1931,"phase": 0,"info": {"tid":7,"region":"Philadelphia","name":"Quakers","abbrev":"PHQ","pop": 6,"imgURL":"https://upload.wikimedia.org/wikipedia/commons/2/25/Logo_Philadelphia_Quakers.svg"},"id":18},
+{"type": "contraction","season": 1931,"phase": 4,"info": {"tid": 3}, "id":19},
+{"type": "contraction","season": 1931,"phase": 4,"info": {"tid": 7}, "id":20},
+{"type": "gameAttributes","season": 1932,"phase": 0,"info": {"numGames": 48}, "id":21},
+{"type": "expansionDraft","season": 1932,"phase": 4,"info": {"teams": [
+          {
+            "tid":3,"region":"Ottawa","name":"Senators","abbrev":"OTT","pop":1.3,
+            "cid": 0,
+            "did": 0}]}, "id":22},
+{"type": "teamInfo","season": 1933,"phase": 0,"info": {"tid":9,"name":"Red Wings","imgURL":"https://upload.wikimedia.org/wikipedia/en/e/e0/Detroit_Red_Wings_logo.svg"},"id":23},
+{"type": "teamInfo","season": 1935,"phase": 0,"info": {"tid":3,"region":"St. Louis","name":"Eagles","abbrev":"STE","pop": 2.8,"imgURL":"https://upload.wikimedia.org/wikipedia/en/a/ac/St._Louis_Eagles_logo.svg"},"id":24},
+{"type": "contraction","season": 1935,"phase": 4,"info": {"tid": 3}, "id":25},
+{"type": "contraction","season": 1938,"phase": 4,"info": {"tid": 5}, "id":26},
+{"type": "gameAttributes","season": 1938,"phase": 4,"info":{"confs":[{"cid":0,"name":"NHL"}],"divs":[{"did":0,"cid":0,"name":"NHL"}]},"id":27},
+{"type": "teamInfo","season": 1938,"phase": 4,"info":{"tid":6,"cid": 0,"did": 0}, "id":28},
+{"type": "teamInfo","season": 1938,"phase": 4,"info":{"tid":8,"cid": 0,"did": 0}, "id":29},
+{"type": "teamInfo","season": 1938,"phase": 4,"info":{"tid":9,"cid": 0,"did": 0}, "id":30},
+{"type": "teamInfo","season": 1938,"phase": 4,"info":{"tid":10,"cid": 0,"did": 0}, "id":31},
+{"type": "gameAttributes","season": 1939,"phase": 0,"info": {"numGamesPlayoffSeries":[3,5,7],"numPlayoffByes":2}, "id":32},
+{"type": "teamInfo","season": 1942,"phase": 0,"info": {"tid":4,"region":"Brooklyn","imgURL":"https://content.sportslogos.net/logos/1/998/full/8410_brooklyn_americans-primary-1942.png"},"id":33},
+{"type": "contraction","season": 1942,"phase": 4,"info": {"tid": 4}, "id":34},
+{"type": "gameAttributes","season": 1943,"phase": 0,"info": {"numGames": 50,"numPlayoffRounds":2,"numGamesPlayoffSeries":[7,7],"numPlayoffByes":0}, "id":35},
+{"type": "gameAttributes","season": 1947,"phase": 0,"info": {"numGames": 60}, "id":36},
+{"type": "gameAttributes","season": 1950,"phase": 0,"info": {"numGames": 70}, "id":37},
+{"type": "gameAttributes","season": 1967,"phase": 4,"info":{"confs":[{"cid":0,"name":"East"},{"cid":1,"name":"West"}],"divs":[{"did":0,"cid":0,"name":"East"},{"did":1,"cid":1,"name":"West"}]}, "id":38},
+{"type": "expansionDraft","season": 1967,"phase": 4,"info": {"teams": [
+          {
+            "region": "Philadelphia",
+            "name": "Flyers",
+            "pop": 6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "PHI",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/d/dc/Philadelphia_Flyers.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Los Angeles",
+            "name": "Kings",
+            "pop": 13.1,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "LAK",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/6/63/Los_Angeles_Kings_logo.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Minnesota",
+            "name": "North Stars",
+            "pop": 3.6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "MNS",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/5/56/Minnesota_North_Stars_Logo_2.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Pittsburgh",
+            "name": "Penguins",
+            "pop": 2.3,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "PIT",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/c/c0/Pittsburgh_Penguins_logo_%282016%29.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "Oakland",
+            "name": "Seals",
+            "pop": 1.6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "OAK",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/6/68/Oakland_Seals_Logo_1967%E2%80%931970.svg",
+            "cid": 1,
+            "did": 1},
+			{
+            "region": "St. Louis",
+            "name": "Blues",
+            "pop": 2.8,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "STL",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/22/StLouisBlues1967.png",
+            "cid": 1,
+            "did": 1}]}, "id":39},
+{"type": "gameAttributes","season": 1968,"phase": 0,"info": {"numGames": 74,"numPlayoffRounds":3,"numGamesPlayoffSeries":[7,7,7],"numPlayoffByes":0}, "id":40},
+{"type": "gameAttributes","season": 1969,"phase": 0,"info": {"numGames": 76}, "id":41},
+{"type": "expansionDraft","season": 1970,"phase": 4,"info": {"teams": [
+          {
+            "region": "Buffalo",
+            "name": "Sabres",
+            "pop": 1.1,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "BUF",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/9/9e/Buffalo_Sabres_Logo.svg",
+            "cid": 0,
+            "did": 0},
+			{
+            "region": "Vancouver",
+            "name": "Canucks",
+            "pop": 2.3,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "VAN",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/2b/VancouverCanucks1970s.png",
+            "cid": 0,
+            "did": 0}]}, "id":42},
+{"type": "teamInfo","season": 1970,"phase": 4,"info":{"tid":10,"cid": 1,"did": 1}, "id":43},
+{"type": "teamInfo","season": 1971,"phase": 0,"info": {"tid":15,"region":"California","name":"Golden Seals","abbrev":"CAL","imgURL":"https://upload.wikimedia.org/wikipedia/en/1/17/California_Golden_Seals_Logo.svg"},"id":44},
+{"type": "expansionDraft","season": 1972,"phase": 4,"info": {"teams": [
+          {
+            "region": "New York",
+            "name": "Islanders",
+            "pop": 20,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "NYI",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/4/42/Logo_New_York_Islanders.svg",
+            "cid": 0,
+            "did": 0},
+			{
+            "region": "Atlanta",
+            "name": "Flames",
+            "pop": 5,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "ATL",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/4/45/Atlanta_Flames_Logo.svg",
+            "cid": 1,
+            "did": 1}]}, "id":45},
+{"type": "gameAttributes","season": 1975,"phase": 4,"info":{"confs":[{"cid":0,"name":"Wales"},{"cid":1,"name":"Campbell"}],
+"divs":[{"did":0,"cid":0,"name":"Adams"},{"did":1,"cid":0,"name":"Norris"},{"did":2,"cid":1,"name":"Patrick"},{"did":3,"cid":1,"name":"Smythe"}]}, "id":46},
+{"type": "expansionDraft","season": 1975,"phase": 4,"info": {"teams": [
+          {
+            "region": "Washington",
+            "name": "Capitals",
+            "pop": 6.3,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "WSH",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/2d/Washington_Capitals.svg",
+            "cid": 0,
+            "did": 1},
+			{
+            "region": "Kansas City",
+            "name": "Scouts",
+            "pop": 2.1,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "KCS",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/7/74/Kansas_City_Scouts_logo.svg",
+            "cid": 1,
+            "did": 3}]}, "id":47},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":15,"cid": 0,"did": 0}, "id":48},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":2,"cid": 0,"did": 1}, "id":49},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":9,"cid": 0,"did": 1}, "id":50},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":12,"cid": 0,"did": 1}, "id":51},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":14,"cid": 0,"did": 1}, "id":52},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":8,"cid": 1,"did": 2}, "id":53},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":11,"cid": 1,"did": 2}, "id":54},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":19,"cid": 1,"did": 2}, "id":55},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":20,"cid": 1,"did": 2}, "id":56},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":10,"cid": 1,"did": 3}, "id":57},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":13,"cid": 1,"did": 3}, "id":58},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":16,"cid": 1,"did": 3}, "id":59},
+{"type": "teamInfo","season": 1976,"phase": 0,"info":{"tid":18,"cid": 1,"did": 3}, "id":60},
+{"type": "gameAttributes","season": 1976,"phase": 0,"info": {"numGames": 80,"numPlayoffRounds":4,"numGamesPlayoffSeries":[3,7,7,7],"numPlayoffByes":4}, "id":61},
+{"type": "teamInfo","season": 1977,"phase": 0,"info": {"tid":15,"region":"Cleveland","name":"Barons","abbrev":"CLE","pop": 2,"imgURL":"https://upload.wikimedia.org/wikipedia/en/7/7b/Cleveland_Barons_%28NHL%29_logo.svg"},"id":62},
+{"type": "teamInfo","season": 1977,"phase": 0,"info": {"tid":22,"region":"Colorado","name":"Rockies","abbrev":"COR","pop": 2.9,"imgURL":"https://upload.wikimedia.org/wikipedia/en/2/24/Colorado_Rockies_%28NHL%29_logo.svg"},"id":63},
+{"type": "contraction","season": 1978,"phase": 4,"info": {"tid": 15}, "id":64},
+{"type": "teamInfo","season": 1979,"phase": 0,"info":{"tid":13,"cid": 0,"did": 0}, "id":65},
+{"type": "expansionDraft","season": 1979,"phase": 4,"info": {"teams": [
+          {
+            "region": "Quebec",
+            "name": "Nordiques",
+            "pop": 0.8,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "QUE",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/9/96/Quebec_Nordiques_Logo.svg",
+            "cid": 0,
+            "did": 0},
+			{
+            "region": "Hartford",
+            "name": "Whalers",
+            "pop": 1.2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "HAR",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hartford_Whalers_1992.svg",
+            "cid": 0,
+            "did": 1},
+			{
+            "region": "Winnipeg",
+            "name": "Jets",
+            "pop": 0.8,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "WPG",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/8/85/Winnipeg_Jets_Logo.svg",
+            "cid": 1,
+            "did": 3},
+			{
+            "region": "Edmonton",
+            "name": "Oilers",
+            "pop": 1.3,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "EDM",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/4/4d/Logo_Edmonton_Oilers.svg",
+            "cid": 1,
+            "did": 3}]}, "id":66},
+{"type": "teamInfo","season": 1980,"phase": 0,"info":{"tid":21,"cid": 1,"did": 2}, "id":67},
+{"type": "gameAttributes","season": 1980,"phase": 0,"info": {"numGamesPlayoffSeries":[5,7,7,7],"numPlayoffByes":0}, "id":68},
+{"type": "teamInfo","season": 1981,"phase": 0,"info": {"tid":20,"region":"Calgary","name":"Flames","abbrev":"CGY","pop": 1.4,"imgURL":"https://upload.wikimedia.org/wikipedia/en/6/61/Calgary_Flames_logo.svg"},"id":69},
+{"type": "gameAttributes","season": 1981,"phase": 4,"info":{"divs":[{"did":0,"cid":0,"name":"Adams"},{"did":1,"cid":0,"name":"Patrick"},{"did":2,"cid":1,"name":"Norris"},{"did":3,"cid":1,"name":"Smythe"}]}, "id":70},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":0,"cid": 1,"did": 2}, "id":71},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":13,"cid": 1,"did": 2}, "id":72},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":2,"cid": 0,"did": 0}, "id":73},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":24,"cid": 0,"did": 0}, "id":74},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":9,"cid": 1,"did": 2}, "id":75},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":12,"cid": 1,"did": 3}, "id":76},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":8,"cid": 0,"did": 1}, "id":77},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":11,"cid": 0,"did": 1}, "id":78},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":19,"cid": 0,"did": 1}, "id":79},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":21,"cid": 0,"did": 1}, "id":80},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":20,"cid": 1,"did": 3}, "id":81},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":16,"cid": 1,"did": 2}, "id":82},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":10,"cid": 1,"did": 2}, "id":83},
+{"type": "teamInfo","season": 1982,"phase": 0,"info":{"tid":25,"cid": 1,"did": 2}, "id":84},
+{"type": "teamInfo","season": 1983,"phase": 0,"info": {"tid":22,"cid": 0,"did": 1,"region":"New Jersey","name":"Devils","abbrev":"NJD","pop": 2,"imgURL":"https://upload.wikimedia.org/wikipedia/en/9/9f/New_Jersey_Devils_logo.svg"},"id":85},
+{"type": "teamInfo","season": 1983,"phase": 0,"info":{"tid":25,"cid": 1,"did": 3}, "id":86},
+{"type": "gameAttributes","season": 1987,"phase": 0,"info": {"numGamesPlayoffSeries":[7,7,7,7]}, "id":87},
+{"type": "expansionDraft","season": 1991,"phase": 4,"info": {"teams": [
+          {
+            "region": "San Jose",
+            "name": "Sharks",
+            "pop": 2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "SJS",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/3/37/SanJoseSharksLogo.svg",
+            "cid": 1,
+            "did": 3}]}, "id":88},
+{"type": "expansionDraft","season": 1992,"phase": 4,"info": {"teams": [
+            {
+            "tid":3,"region":"Ottawa","name":"Senators","abbrev":"OTT","pop":1.3, "imgURL": "https://upload.wikimedia.org/wikipedia/en/b/b2/Ottawa_Senators_2020-2021_logo.svg",
+            "cid": 0,
+            "did": 0},
+			{
+            "region": "Tampa Bay",
+            "name": "Lightning",
+            "pop": 3.1,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "TBL",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/2f/Tampa_Bay_Lightning_Logo_2011.svg",
+            "cid": 1,
+            "did": 2}]}, "id":89},
+{"type": "gameAttributes","season": 1993,"phase": 0,"info": {"numGames": 84}, "id":90},
+{"type": "gameAttributes","season": 1993,"phase": 4,"info":{"confs":[{"cid":0,"name":"Eastern Conference"},{"cid":1,"name":"Western Conference"}],
+"divs":[{"did":0,"cid":0,"name":"Northeast"},{"did":1,"cid":0,"name":"Atlantic"},{"did":2,"cid":1,"name":"Central"},{"did":3,"cid":1,"name":"Pacific"}]}, "id":91},
+{"type": "expansionDraft","season": 1993,"phase": 4,"info": {"teams": [
+            {
+            "region": "Florida",
+            "name": "Panthers",
+            "pop": 6.1,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "FLA",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/4/43/Florida_Panthers_2016_logo.svg",
+            "cid": 0,
+            "did": 1},
+			{
+            "region": "Anaheim",
+            "name": "Mighty Ducks",
+            "pop": 2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "ANA",
+            "imgURL": "https://content.sportslogos.net/logos/1/1/full/anaheim_mighty_ducks-primary_19944561.png",
+            "cid": 1,
+            "did": 3}]}, "id":92},
+{"type": "teamInfo","season": 1994,"phase": 0,"info":{"tid":14,"cid": 0,"did": 0}, "id":93},
+{"type": "teamInfo","season": 1994,"phase": 0,"info":{"tid":28,"cid": 0,"did": 1}, "id":94},
+{"type": "teamInfo","season": 1994,"phase": 0,"info":{"tid":25,"cid": 1,"did": 2}, "id":95},
+{"type": "teamInfo","season": 1994,"phase": 0,"info": {"tid":13,"region":"Dallas","name":"Stars","abbrev":"DAL","pop": 7.2,"imgURL":"https://upload.wikimedia.org/wikipedia/en/c/ce/Dallas_Stars_logo_%282013%29.svg"},"id":96},
+{"type": "gameAttributes","season": 1995,"phase": 0,"info": {"numGames": 82}, "id":97},	
+{"type": "teamInfo","season": 1996,"phase": 0,"info": {"tid":23,"cid": 1,"did": 3,"region":"Colorado","name":"Avalanche","abbrev":"COL","pop": 2.9,"imgURL":"https://upload.wikimedia.org/wikipedia/en/4/45/Colorado_Avalanche_logo.svg"},"id":98},
+{"type": "teamInfo","season": 1997,"phase": 0,"info": {"tid":25,"region":"Phoenix","name":"Coyotes","abbrev":"PHX","pop": 4.5,"imgURL":"https://upload.wikimedia.org/wikipedia/en/2/27/Arizona_Coyotes.svg"},"id":99},
+{"type": "teamInfo","season": 1998,"phase": 0,"info": {"tid":24,"region":"Carolina","name":"Hurricanes","abbrev":"CAR","pop": 1.3,"imgURL":"https://upload.wikimedia.org/wikipedia/en/3/32/Carolina_Hurricanes.svg"},"id":100},
+{"type": "gameAttributes","season": 1998,"phase": 4,"info": {"divs":[{"did":0,"cid":0,"name":"Northeast"},{"did":1,"cid":0,"name":"Atlantic"},{"did":2,"cid":0,"name":"Southeast"},{"did":3,"cid":1,"name":"Pacific"},{"did":4,"cid":1,"name":"Northwest"},{"did":5,"cid":1,"name":"Central"}]}, "id":101},				
+ {"type": "expansionDraft","season": 1998,"phase": 4,"info": {"teams": [
+          {
+            "region": "Nashville",
+            "name": "Predators",
+            "pop": 2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "NSH",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/9/9c/Nashville_Predators_Logo_%282011%29.svg",
+            "cid": 1,
+            "did": 5}]}, "id":102},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":0,"cid": 0,"did": 0}, "id":103},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":14,"cid": 0,"did": 1}, "id":104},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":21,"cid": 0,"did": 2}, "id":105},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":24,"cid": 0,"did": 2}, "id":106},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":28,"cid": 0,"did": 2}, "id":107},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":29,"cid": 0,"did": 2}, "id":108},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":13,"cid": 1,"did": 3}, "id":109},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":25,"cid": 1,"did": 3}, "id":110},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":20,"cid": 1,"did": 4}, "id":111},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":26,"cid": 1,"did": 4}, "id":112},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":23,"cid": 1,"did": 4}, "id":113},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":18,"cid": 1,"did": 4}, "id":114},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":9,"cid": 1,"did": 5}, "id":115},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":10,"cid": 1,"did": 5}, "id":116},
+{"type": "teamInfo","season": 1999,"phase": 0,"info":{"tid":16,"cid": 1,"did": 5}, "id":117},
+{"type": "expansionDraft","season": 1999,"phase": 4,"info": {"teams": [
+          {
+            "region": "Atlanta",
+            "name": "Thrashers",
+            "pop": 6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "ATL",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/0/02/Atlanta_Thrashers.svg",
+            "cid": 0,
+            "did": 2}]}, "id":118},
+{"type": "expansionDraft","season": 2000,"phase": 4,"info": {"teams": [
+            {
+            "region": "Columbus",
+            "name": "Blue Jackets",
+            "pop": 2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "CLB",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/5/5d/Columbus_Blue_Jackets_logo.svg",
+            "cid": 1,
+            "did": 5},
+			{
+            "region": "Minnesota",
+            "name": "Wild",
+            "pop": 3.6,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "MIN",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/1/1b/Minnesota_Wild.svg",
+            "cid": 1,
+            "did": 4}]}, "id":119},
+{"type": "teamInfo","season": 2007,"phase": 0,"info": {"tid":30,"name":"Ducks","imgURL":"https://upload.wikimedia.org/wikipedia/en/7/72/Anaheim_Ducks.svg"},"id":120},
+{"type": "teamInfo","season": 2012,"phase": 0,"info": {"tid":32,"region":"Winnipeg","name":"Jets","pop": 0.8,"imgURL":"https://upload.wikimedia.org/wikipedia/en/9/93/Winnipeg_Jets_Logo_2011.svg"},"id":121},
+{"type": "gameAttributes","season": 2013,"phase": 4,"info":{"confs":[{"cid":0,"name":"Eastern Conference"},{"cid":1,"name":"Western Conference"}],
+"divs":[{"did":0,"cid":0,"name":"Atlantic"},{"did":1,"cid":0,"name":"Metropolitan"},{"did":2,"cid":1,"name":"Central"},{"did":3,"cid":1,"name":"Pacific"}]}, "id":122},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":9,"cid": 0,"did": 0}, "id":123},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":28,"cid": 0,"did": 0}, "id":124},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":29,"cid": 0,"did": 0}, "id":125},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":21,"cid": 0,"did": 1}, "id":126},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":24,"cid": 0,"did": 1}, "id":127},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":33,"cid": 0,"did": 1}, "id":128},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":10,"cid": 1,"did": 2}, "id":129},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":23,"cid": 1,"did": 2}, "id":130},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":13,"cid": 1,"did": 2}, "id":131},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":34,"cid": 1,"did": 2}, "id":132},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":31,"cid": 1,"did": 2}, "id":133},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":16,"cid": 1,"did": 2}, "id":134},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":32,"cid": 1,"did": 2}, "id":135},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":20,"cid": 1,"did": 3}, "id":136},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":26,"cid": 1,"did": 3}, "id":137},
+{"type": "teamInfo","season": 2014,"phase": 0,"info":{"tid":18,"cid": 1,"did": 3}, "id":138},
+{"type": "teamInfo","season": 2015,"phase": 0,"info": {"tid":25,"region":"Arizona"},"id":139},
+{"type": "expansionDraft","season": 2017,"phase": 4,"info": {"teams": [
+          {
+            "region": "Vegas",
+            "name": "Golden Knights",
+            "pop": 2.2,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "VGK",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/a/ac/Vegas_Golden_Knights_logo.svg",
+            "cid": 1,
+            "did": 3}]}, "id":140},
+{"type": "expansionDraft","season": 2021,"phase": 4,"info": {"teams": [
+          {
+            "region": "Seattle",
+            "name": "Kraken",
+            "pop": 3.9,
+            "colors": [
+              "#009e87",
+              "#541f3e",
+              "#ffffff"
+            ],
+            "abbrev": "SEA",
+            "imgURL": "https://upload.wikimedia.org/wikipedia/en/4/48/Seattle_Kraken_official_logo.svg",
+            "cid": 1,
+            "did": 3}]}, "id":141},
+{"type": "teamInfo","season": 2022,"phase": 0,"info":{"tid":25,"cid": 1,"did": 2}, "id":142}
+
+
+
+
+
+ ] 
+ }
